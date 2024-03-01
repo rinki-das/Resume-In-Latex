@@ -1,0 +1,251 @@
+%-------------------------
+% Resume in Latex
+% Author : Rinki Das
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      \textit{\small#5} & \textit{\small #6} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%  RESUME STARTS HERE
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Rinki Das} \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:905314204536}{+91 9038866456}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:arasgungore09@gmail.com}{rinroy351@gmail.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/rinki-das/}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/rinki-das}{GitHub}
+    $|$
+
+    \faMapMarker \hspace{.5pt} Kolkata, India
+\end{center}
+
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{3pt}
+  \resumeSubHeadingListStart
+    
+    \resumeEducationHeading
+      {Haldia Institute of Technology}{Haldia, West Bengal}
+      {B.Tech in Electronics and Instrumentation Engineering}{Sep 2020 -- Jun 2023}
+      {GPA: 8.4/10}
+
+    \resumeEducationHeading
+      {Siliguri Government Polytechnic}{Siliguri, West Bengal}
+      {Diploma in Electronics and Instrumentation Engineering}{Oct 2017 -- Jun 2020}
+      {GPA: 6.9/10}
+
+  \resumeSubHeadingListEnd
+
+
+
+
+
+
+%----------- SKILLS -----------
+
+\section{Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        
+        \textbf{Languages:}{ React JS, Javascript, HTML, CSS} \\ \vspace{3pt}
+        
+        \textbf{Technologies:}{ Node.js, MongoDB, Express.js, Redux} \\ \vspace{3pt}
+        
+    }}
+  \resumeSubHeadingListEnd
+
+
+%----------- EXPERIENCE -----------
+
+\section{Experience}
+\vspace{3pt}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{WBL Intern @ NIELIT}{Jadavpur, Kolkata}
+{Blockchain Department}{April 2023 -- Present, Full-time}
+\resumeItemListStart
+\resumeItem
+{Worked on a project involving the creation of a batch code generation system for educational institutions.}
+\resumeItem
+{Implemented frontend components using React for user input and interaction.}
+\resumeItem
+{Developed backend functionalities using Node.js and Express to handle batch code generation and storage.}
+\resumeItemListEnd
+\textbf{Technologies Used:} React, Node.js, Express, MongoDB, Axios, React Toastify, jsPDF, jspdf-autotable, Redux.
+\resumeSubheading
+{Instructor @ NIELIT}{Various Courses}
+{Various Institutes}{Date Range, Part-time}
+\resumeItemListStart
+\resumeItem
+{Conducted classes to teach various courses.}
+\resumeItem
+{Updated systems to ensure relevance and effectiveness of course content.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Instructor at Future PRIME Programme}{Government Officers Training Program}
+{Re-skilling/Up-skilling of IT Manpower/Faculties}{Date Range, Part-time}
+\resumeItemListStart
+\resumeItem
+{Taught in the Future PRIME programme for re-skilling/up-skilling of IT manpower and faculties in government universities, colleges, and institutes.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+
+
+%----------- CERTIFIACTIONS -----------
+
+\section{Certifications}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Certification of Blockchain Technology:}{  WBL Level 1 and 2 } \\ \vspace{3pt}
+
+        \textbf{Certification of Traning of Trainers(TOT):}{  Under NIELIT} \\ \vspace{3pt}
+    
+        
+        \textbf{Industrial training Program:}{ On Python Programming, Data Structure and Algorithms, Database Management System} \\ \vspace{3pt}
+        
+     
+        
+
+  \resumeSubHeadingListEnd
+
+
+
+
+
+\begin{document}
+
+\section*{Projects}
+\vspace{3pt}
+\begin{itemize}[left=0pt]
+    \item \textbf{CERTIFICATE MANAGEMENT SYSTEM} $|$ \emph{\color{blue}\href{https://github.com/your-username/your-repository}{GitHub}}
+    A React-based web application designed for managing certificate-related data in educational contexts. Users can select the institute, district, course, and batch code. The system allows the upload of Excel files containing student details, including registration numbers, names, and marks. Notably, it supports the generation of detailed PDF reports based on the selected batch code. The user interface features dropdowns for easy selection and date inputs for specifying course start and end dates. Users can upload Excel files and submit data for storage. The application facilitates administrative tasks related to student certificates in an efficient and user-friendly manner.(This Website will be Used inside the organisation by the employees and the admins after more updates @ NIELIT)
+\end{itemize}
+
+\end{document}
+
+
+
